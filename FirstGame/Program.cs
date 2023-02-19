@@ -5,6 +5,7 @@ class Program
     private static Game _game = new Game();
     static void Main(string[] args)
     {
+        
         while (_game.GetWinner() == Winner.None)
         {
             Console.Clear();
@@ -33,6 +34,7 @@ class Program
 
     static void PrintGame()
     {
+        Console.WriteLine("Игра висилица");
         Console.WriteLine("Виселица");
         Console.WriteLine();
         Console.Write("Введите букву из загаданного слова. ");
